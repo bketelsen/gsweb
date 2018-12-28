@@ -1,0 +1,6 @@
+- id: "course.created.success"
+  translation: "Course was successfully created."
+- id: "course.updated.success"
+  translation: "Course was successfully updated."
+- id: "course.destroyed.success"
+  translation: "Course was successfully destroyed."
