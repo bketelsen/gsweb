@@ -4936,7 +4936,7 @@ function create_dom_276627() {
 		F.line = 50;
 		state_275143[0].loading = true;
 		F.line = 51;
-		ajax_get_218176("/courses", [{Field0: "Accepts", Field1: "application/json"}], on_course_list_275159, true, kxi_205324[0]);
+		ajax_get_218176("/courses", [{Field0: "Accept", Field1: "application/json"}], on_course_list_275159, true, kxi_205324[0]);
 		}
 		
 		F.line = 52;

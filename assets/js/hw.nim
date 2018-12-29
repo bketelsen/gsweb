@@ -48,7 +48,7 @@ proc createDom(): VNode =
   if state.list.isNone:
     if not state.loading:
       state.loading = true
-      ajaxGet("/courses", @[("Accepts".cstring,"application/json".cstring)], onCourseList)
+      ajaxGet("/courses", @[("Accept".cstring,"application/json".cstring)], onCourseList)
     return buildHtml(tdiv):
       text "loading"
   let list = state.list.get()
